@@ -1,4 +1,5 @@
-import axios from "axios";`r`nimport { API_URL } from "@/lib/api";
+import axios from "axios";
+import { API_URL } from "@/lib/api";
 
 export const generateAIContent = async (
   topic: string,
